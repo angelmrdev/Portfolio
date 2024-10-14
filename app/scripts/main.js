@@ -41,6 +41,8 @@ var data = {
         "skill3": "",
         "skill4": "",
         "work-exp": "",
+        "work-block1": "",
+        "work-block2": "",
 
     },
 
