@@ -33,7 +33,7 @@ var data = {
         "link-about": "About Me",
         "link-education": "Education & Skills",
         "link-experience": "Work Experience",
-        "about": "",
+        "about": "I was born in Ciudad Real on 1996. After studing at the University and a first look into working sector, I found lighting for live events was my passion. For that, I arrived into Málaga to finish my professional education. In love with Audiovisuals and IoT I'm always spending my free time into new personal proyects that allows me to live new experiences and adquire new abilities.",
         "education": "",
         "skills": "",
         "skill1": "",
