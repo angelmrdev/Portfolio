@@ -1,0 +1,23 @@
+formacion_destacada:
+  - image_path: /assets/images/fp-asir.png
+    alt: "FP ASIR"
+    title: "Técnico Superior en ASIR"
+    excerpt: "Formación Profesional en Administración de Sistemas Informáticos en Red."
+  - image_path: /assets/images/cert-azure.png
+    alt: "Certificación Azure"
+    title: "Azure Fundamentals"
+    excerpt: "Certificación AZ-900 en fundamentos de Microsoft Azure."
+  - image_path: /assets/images/cert-lpic.png
+    alt: "Certificación LPIC-1"
+    title: "LPIC-1 Linux Admin"
+    excerpt: "En preparación: administración de sistemas GNU/Linux."
+
+proyectos_destacados:
+  - image_path: /assets/images/homelab.png
+    alt: "HomeLab"
+    title: "Servidor personal HomeLab"
+    excerpt: "Automatización, backups, IA y multimedia sobre Raspberry Pi + MSI."
+  - image_path: /assets/images/n8n-flow.png
+    alt: "Automatización con n8n"
+    title: "Flujos de IA con n8n"
+    excerpt: "Análisis de inversión y envío de alertas usando flujos automáticos."
