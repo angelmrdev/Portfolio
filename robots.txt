@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://angelmr2711.github.io/portfolio/sitemap.xml
