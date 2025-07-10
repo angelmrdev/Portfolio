@@ -17,8 +17,8 @@ title: "Ángel M. Rodríguez"
 name: "Ángel M. Rodríguez"
 email: "angel.martinr@hotmail.com"
 description: "Administrador de Sistemas con experiencia en automatización, servidores, IA y proyectos personales. Portfolio técnico, artículos y enlaces a repositorios."
-url: "https://angelmr2711.github.io/Portfolio"
-baseurl: ""  # no pongas nada si es un sitio user (tipo usuario.github.io)
+url: "https://angelmr2711.github.io"
+baseurl: "/Portfolio"  # no pongas nada si es un sitio user (tipo usuario.github.io)
 
 locale: "es"
 title_separator: "–"
