@@ -87,6 +87,7 @@ Este proyecto está desarrollado como una **web estática modular**, usando HTML
 ├── blog.json              # Entradas del blog
 ├── cert.json              # Certificaciones
 ├── edu.json               # Formación
+├── meta.json              # Información general de la web
 └── proyectos.json         # Proyectos personales/profesionales
 
 📁 _layouts/                # Plantillas base reutilizables por tipo de contenido
@@ -97,6 +98,7 @@ Este proyecto está desarrollado como una **web estática modular**, usando HTML
 ├── breadcrumbs.html       # Rastro de navegación (breadcrumb)
 ├── card-blog.html         # Tarjeta resumen de entrada de blog
 ├── card-proyecto.html     # Tarjeta resumen de proyecto
+├── carusel.html           # Carusels template
 ├── cta-section.html       # Sección de llamado a la acción
 ├── faq.html               # Preguntas frecuentes (bloque reutilizable)
 ├── formulario-contacto.html # Formulario HTML reutilizable
@@ -120,8 +122,10 @@ Este proyecto está desarrollado como una **web estática modular**, usando HTML
 ├── 📁 img/                # Imágenes del sitio
 └── 📁 js/                 # Scripts JS para funcionalidad, carga de plantillas y plugins
     ├── _aos-init.js
+    ├── _breadcrumb.js
     ├── _darkmode.js
     ├── _glider-init.js
+    ├── _nav-handler.js
     ├── _router.js
     ├── _template-loader.js
     └── main.js
