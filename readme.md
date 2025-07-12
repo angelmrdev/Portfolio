@@ -21,7 +21,62 @@ Este proyecto está desarrollado con tecnologías web puras y tiene como objetiv
 
 ---
 
-## 📁 Estructura del proyecto
+## 🛠️ Guía de diseño y programación
+
+### 🔧 Enfoque general
+
+Este proyecto está desarrollado como una **web estática modular**, usando HTML, CSS y JavaScript puro. No emplea frameworks ni motores de plantillas. Todo está pensado para ser:
+
+- **Fácilmente mantenible**
+- **Escalable**
+- **Migrable**
+- **SEO-friendly**
+
+---
+
+### 🧱 Estructura técnica
+
+- Componentes comunes (`nav`, `footer`) en `_components/`, cargados vía JS.
+- Templates visuales (`card-proyecto`, `faq`, etc.) en `_templates/`.
+- Plantillas base (`post.html`, `proyecto.html`) en `_layouts/`.
+- Datos (`blog.json`, `proyectos.json`) en `_data/`.
+- Solo `main.css` y `main.js` se enlazan en HTML. Lo demás se importa o carga por JS.
+
+---
+
+### 🎨 Diseño y estilo
+
+- Reset personalizado en `_reset.css`
+- Variables de diseño en `_variables.css`
+- Sistema grid/flex en `_layout.css`
+- Clases utilitarias en `_utils.css`
+- Estilos específicos por bloque en archivos separados
+
+---
+
+### ⚙️ Plugins y librerías externas
+
+| Plugin / Librería | Uso principal | Método de carga |
+|-------------------|----------------|-----------------|
+| **AOS** (Animate on Scroll) | Animaciones scroll | CDN + `_aos-init.js` |
+| **Glider.js** | Carrusel de contenido | CDN + `_glider-init.js` |
+| **Lucide Icons** | Iconos SVG | Inline o por JS |
+| **Modo Oscuro** | Toggle JS + CSS variables | `_darkmode.js` + `_darkmode.css` |
+| **Formspree** | Formularios sin backend | Directo desde HTML |
+
+---
+
+### 🧠 Convenciones
+
+- Prefijo `_` en archivos auxiliares
+- Carga modular por `main.css` y `main.js`
+- Templates copiados o cargados dinámicamente
+- Preparado para conexión futura con CMS headless
+
+
+---
+
+### 📁 Estructura del proyecto
 
 ```plaintext
 📁 _components/              # Componentes cargados dinámicamente en todas las páginas
