@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://angelmrdev.github.io/selfhosted-homeserver-documentation/sitemap.xml
