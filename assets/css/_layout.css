@@ -1,0 +1,62 @@
+/* Estructura general del layout */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .section {
+    padding: 4rem 0;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .grid-responsive {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
+  }
+  
+  @media (min-width: 768px) {
+    .grid-responsive {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .grid-responsive {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .col {
+    flex: 1 1 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .col-md-6 {
+      flex: 1 1 50%;
+    }
+    .col-md-4 {
+      flex: 1 1 33.33%;
+    }
+  }
+  
