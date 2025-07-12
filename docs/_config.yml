@@ -1,4 +1,4 @@
-theme: just-the-docs
+theme: "just-the-docs"
 title: "Selfhosted Home Server – Technical Docs"
 description: "Guía técnica del HomeLab personal de Ángel Martín Ramírez: contenedores, automatización, IA y más."
 baseurl: "/selfhosted-homeserver-documentation"
