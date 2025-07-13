@@ -1,6 +1,6 @@
 remote_theme: just-the-docs/just-the-docs
-title: "Selfhosted Home Server – Technical Docs"
-description: "Guía técnica del HomeLab personal de Ángel Martín Ramírez: contenedores, automatización, IA y más."
+title: "Portfolio Ángel MR – Technical Docs"
+description: "Guía técnica de la página web de Ángel Martín Ramírez."
 baseurl: "/Portfolio"
 color_scheme: dark
 logo: "/assets/images/logo.png"
